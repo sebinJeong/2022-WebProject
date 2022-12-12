@@ -1,0 +1,30 @@
+body{
+    background-color: gainsboro;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*표 스타일*/
+table{
+    /*중복된 테두리 합치기*/
+    border-collapse: collapse;
+}
+thead{
+
+    background : darkgray;
+}
+td, tfoot th{
+    border-bottom : 1px solid;
+}
+th{
+    width : 60px;
+    height : 30px;
+    text-align:center;
+}
+td{
+    width : 60px;
+    height : 30px;
+    text-align:center
+}
+span{
+    font:italic bold 13px Georgia;
+}
