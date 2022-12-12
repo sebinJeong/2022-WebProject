@@ -1,3 +1,229 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 한류(The Korean Wave)</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        thead{
+            background : darkgray
+        }
+        td, tfoot th{
+            border-bottom : 1px solid
+        }
+        th{
+            width : 60px;
+            height : 30px;
+            text-align:center
+        }
+        td{
+            width : 60px;
+            height : 30px;
+            text-align:center
+        }
+        td:nth-child(5){
+            background-color: slateblue;
+            color: cornsilk;
+        }
+        #dataBox {
+            width:190px;
+            height:100px;
+        }
+        #Data{
+            text-align: right;
+        }
+        #longdataBox{
+            width: 200px;
+            height:110px;
+        }
+        @font-face {
+        font-family: 'NanumSquareNeo-Variable';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <h1>한류 (Korean Wave)</h1>
+    <hr>
+    <h3>개요</h3>
+    <p>
+        2019년부터 시작된 코로나의 장기화는 한류의 위축을 우려했으나 이는 SNS와 온라인 동영상 서비스(OTT)를 제공하는 글로벌 영상 콘텐츠 플랫폼의 활성화를 촉진했다. 
+        이러한 변화는 한류를 대표하는 K팝 뿐만 아니라 언어 장벽으로 인해 상대적으로 확산이 제한되었던 드라마, 영화 , 웹툰, 등 다양한 한류 콘텐츠가 빛을 발하는 기회로 작용하였다.
+    </p>
+    <ul>
+        <li><a href="#music">음악</a>
+        <li><a href="#drama">드라마</a>
+        <li><a href="#movie">영화</a>
+        <li><a href="#beauty">뷰티</a>
+        <li><a href="#food">음식</a>
+    </ul>
 
-testtesttesttesttesttest
+    <h3>한국 연상이미지</h3> 
+    <p>
+        <ol style="list-style-type: decimal;">
+            <li>K-pop : 14.0%</li>
+            <li>한식 : 11.5%</li>
+            <li>드라마 : 7.5%</li>
+            <li>한류스타 : 7.0%</li>
+            <li>IT 산업 : 6.8%</li>
+        </ol>
+    </p>
+    <table>
+        <caption>한국 문화컨텐츠 인기도</caption>
+        <thead>
+            <tr><th></th><th>2018년</th><th>2019년</th><th>2020년</th><th>2021년</th><th>등락폭</th></tr>
+        </thead>
+        <tfoot></tfoot>
+        <tbody>
+            <tr><td>음악</td><td>33.1</td><td>37.5</td><td>42.2</td><td>46.8</td><td>4.6</td></tr>
+            <tr><td>드라마</td><td>24.6</td><td>27.2</td><td>31.1</td><td>37.8</td><td>6.7</td></tr>
+            <tr><td>영화</td><td>28.0</td><td>31.1</td><td>34.2</td><td>41.5</td><td>7.3</td></tr>
+            <tr><td>뷰티</td><td>40.1</td><td>42.6</td><td>43.1</td><td>48.9</td><td>5.8</td></tr>
+            <tr><td>음식</td><td>43.2</td><td>45.1</td><td>45.1</td><td>49.4</td><td>4.3</td></tr>
+        </tbody>
+    </table>
+
+    <h3 id="music">음악</h3>
+    <div id="dataBox" >
+        <p id="title">상위 3개국 </p>
+        <p id="Data">
+            인도 : 92.4%<meter value="0.924"></meter><br>
+            태국 : 88.3%<meter value="0.883"></meter><br>
+            인도네시아 : 84.0%&<meter value="0.84"></meter><br>
+        </p>
+    </div>
+    <div id="dataBox" >
+        <p id="title">하위 3개국 </p>
+        <p id="Data" >
+            러시아 : 50.5%<meter value="0.505"></meter><br>
+            일본 : 52.8%<meter value="0.528"></meter><br>
+            프랑스 : 61.4%<meter value="0.614"></meter><br>
+        </p>
+    </div>
+    <div id="longdataBox">
+        <p id="title">최선호 가수</p>
+        <p id="Data" >
+                BTS : 26.7%<meter value="0.924"></meter><br>
+                블랙핑크 : 10.4%<meter value="0.924"></meter><br>
+                아이유 : 2.8%<meter value="0.924"></meter><br>
+                리사 : 2.4%<meter value="0.924"></meter><br>
+                싸이 : 2.2%<meter value="0.924"></meter><br>
+        </p>
+    </div>
+   
+
+    <h3 id="drama">드라마</h3>
+    <div id="dataBox" >
+        <p id="title">상위 3개국 </p>
+        <p id="Data" >
+            태국 : 92.6%<meter value="0.926"></meter><br>
+            아르헨티나 : 92.4%<meter value="0.924"></meter><br>
+            인도 : 91.1%<meter value="0.911"></meter><br>
+        </p>
+    </div>
+    <div id="dataBox" >
+        <p id="title">하위 3개국 </p>
+        <p id="Data" >
+            일본 : 57.2%<meter value="0.572"></meter><br>
+            러시아 : 66.0%<meter value="0.66"></meter><br>
+            미국 : 71.4%<meter value="0.714"></meter><br>
+        </p>
+    </div>
+    <div id="longdataBox">
+        <p id="title">최선호 드라마</p>
+        <p id="Data">
+            오징어게임 : 21.2%<meter value="0.212"></meter><br>
+            사랑의 불시착 : 2.2%<meter value="0.022"></meter><br>
+            빈센조 : 1.9%<meter value="0.019"></meter><br>
+            펜트하우스 : 1.6%<meter value="0.016"></meter><br>
+            갯마을 차차차 : 1.4%<meter value="0.014"></meter><br>
+        </p>
+    </div>
+    
+
+    <h3 id="movie">영화</h3>
+    <div id="dataBox" >
+        <p id="title">상위 3개국 </p>
+        <p id="Data" >      
+            태국 : 91.5%<meter value="0.915"></meter><br>
+            아르헨티나 : 91.4%<meter value="0.914"></meter><br>
+            인도 :  91.2% <meter value="0.912"></meter><br> 
+        </p>
+    </div>
+    <div id="dataBox" >
+        <p id="title">하위 3개국 </p>
+        <p id="Data" >
+            일본 : 60.6%<meter value="0.606"></meter><br>
+            프랑스 : 66.8%<meter value="0.668"></meter><br>
+            러시아 : 67.4%  <meter value="0.674"></meter><br>
+        </p>
+    </div>
+    <div id="longdataBox">
+        <p id="title">최선호 영화</p>
+        <p id="Data">        
+            기생충 : 10.3%<meter value="0.103"></meter><br>
+            부산행 : 6.8%<meter value="0.068"></meter><br>
+            서복 : 1.5%<meter value="0.015"></meter><br>
+            미드나이트 : 1.3%<meter value="0.013"></meter><br>
+            승리호 : 1.3%<meter value="0.013"></meter><br>    
+        </p>
+    </div>
+    <div id="longdataBox">
+        <p id="title">최선호 배우</p>
+        <p id="Data">
+            이민호 : 9.3%<meter value="0.09"></meter><br>
+            현빈 : 3.1%<meter value="0.031"></meter><br>
+            공유 : 2.8%<meter value="0.028"></meter><br>
+            송혜교 : 2.2%<meter value="0.022"></meter><br>
+            송중기 : 2.1%<meter value="0.021"></meter><br>      
+        </p>
+    </div>
+    
+
+    <h3 id="beauty">뷰티</h3>
+    <div id="dataBox" >
+        <p id="title">상위 3개국 </p>
+        <p id="Data">
+            인도 : 93.2%<meter value="0.932"></meter><br>
+            아르헨티나 : 90.6%<meter value="0.906"></meter><br>
+            베트남 : 90.0%<meter value="0.90"></meter><br>   
+        </p>
+    </div>
+    <div id="dataBox" >
+        <p id="title">하위 3개국 </p>
+        <p id="Data">
+            프랑스 : 56.9%<meter value="0.569"></meter><br>
+            러시아 : 64.8%<meter value="0.648"></meter><br>
+            일본 : 66.1%<meter value="0.661"></meter><br>
+        </p> 
+    </div>
+
+    <h3 id="food">음식</h3>
+    <div id="dataBox" >
+        <p id="title">상위 3개국 </p>
+        <p id="Data">
+            인도 : 37.3%<meter value="0.373"></meter><br>
+            베트남 : 33.5%<meter value="0.335"></meter><br>
+            태국 : 31.3%<meter value="0.313"></meter><br>
+        </p>
+    </div>
+    <div id="dataBox" >
+        <p id="title">하위 3개국 </p>
+        <p id="Data">
+            러시아 : 9.7%<meter value="0.097"></meter><br>
+            일본 : 11.4%<meter value="0.114"></meter><br>
+            프랑스 : 15.1%<meter value="0.151"></meter><br>
+        </p>
+    </div>
+    
+
+</body>
+</html>
