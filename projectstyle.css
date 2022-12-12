@@ -34,6 +34,15 @@ td:nth-child(5){
     color: cornsilk;
 } 
 /* 엥커를 이용하여 각 영역을 스타일 적용*/
+#month{
+    
+            background-color: rgb(200, 213, 224);
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            width: 60px;
+            font-weight:bold;
+}
 #dataBox {
     width:210px;
     height:110px;
