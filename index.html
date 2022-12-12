@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> 한류(The Korean Wave)</title>
+    <!--CSS3를 이용해서 꾸미기-->
     <style>
         table{
             border-collapse: collapse;
@@ -25,10 +26,11 @@
             height : 30px;
             text-align:center
         }
+        /*2021자료를 강조하는 스타일*/
         td:nth-child(5){
             background-color: slateblue;
             color: cornsilk;
-        }
+        } 
         #dataBox {
             width:210px;
             height:110px;
@@ -52,14 +54,15 @@
 </head>
 <body>
     
-    <h1>한류 (Korean Wave)</h1>
+    <h1 style="text-align:center">한류 (Korean Wave)</h1>
     <hr>
     <h3>개요</h3>
     <p>
         2019년부터 시작된 코로나의 장기화는 한류의 위축을 우려했으나 이는 SNS와 온라인 동영상 서비스(OTT)를 제공하는 글로벌 영상 콘텐츠 플랫폼의 활성화를 촉진했다. 
         이러한 변화는 한류를 대표하는 K팝 뿐만 아니라 언어 장벽으로 인해 상대적으로 확산이 제한되었던 드라마, 영화 , 웹툰, 등 다양한 한류 콘텐츠가 빛을 발하는 기회로 작용하였다.
     </p>
-    <ul>
+    <!--앵커에 연결되는 하이퍼링크-->
+    <ul style="list-style-type:upper-roman">
         <li><a href="#music">음악</a>
         <li><a href="#drama">드라마</a>
         <li><a href="#movie">영화</a>
@@ -91,23 +94,26 @@
             <tr><td>음식</td><td>43.2</td><td>45.1</td><td>45.1</td><td>49.4</td><td>4.3</td></tr>
         </tbody>
     </table>
+    <p></p>
 
     <h3 id="music">음악</h3>
-    <div id="dataBox" >
-        <p id="title">상위 3개국 </p>
-        <p id="Data">
-            인도 : 92.4%<meter value="0.924"></meter><br>
-            태국 : 88.3%<meter value="0.883"></meter><br>
-            인도네시아 : 84.0%<meter value="0.84"></meter><br>
-        </p>
-    </div>
-    <div id="dataBox" >
-        <p id="title">하위 3개국 </p>
-        <p id="Data" >
-            러시아 : 50.5%<meter value="0.505"></meter><br>
-            일본 : 52.8%<meter value="0.528"></meter><br>
-            프랑스 : 61.4%<meter value="0.614"></meter><br>
-        </p>
+    <div style="text-align:center;">
+        <div id="dataBox" style="float:left; margin-right:10px">
+            <p id="title">상위 3개국 </p>
+            <p id="Data">
+                인도 : 92.4%<meter value="0.924"></meter><br>
+                태국 : 88.3%<meter value="0.883"></meter><br>
+                인도네시아 : 84.0%<meter value="0.84"></meter><br>
+            </p>
+        </div>
+        <div id="dataBox" style="float:right;" >
+            <p id="title">하위 3개국 </p>
+            <p id="Data" >
+                러시아 : 50.5%<meter value="0.505"></meter><br>
+                일본 : 52.8%<meter value="0.528"></meter><br>
+                프랑스 : 61.4%<meter value="0.614"></meter><br>
+            </p>
+        </div>
     </div>
     <div id="longdataBox">
         <p id="title">최선호 가수</p>
@@ -119,9 +125,7 @@
                 싸이 : 2.2%<meter value="0.022"></meter><br>
         </p>
     </div>
-    <div>
-        <p>인기요인</p>
-    </div>
+    
 
     <h3 id="drama">드라마</h3>
     <div id="dataBox" >
