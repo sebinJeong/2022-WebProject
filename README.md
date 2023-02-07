@@ -7,4 +7,4 @@ B. music(Kpop)
 C. drama
 D. movie
 E. beauty
-<in progress...>
+(in progress...)
