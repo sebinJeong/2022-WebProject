@@ -6,48 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> 한류(The Korean Wave)</title>
     <!--CSS3를 이용해서 꾸미기-->
-    <style>
-        @import url(projectstyle.css);
-    </style>
-    <script>
-        /*자바 스크립트를 이용하여 상단으로 가는 버튼 구현*/
-        function toTop(){
-            window.scrollTo({top:0, left:0, behavior:'smooth'});
-        }
-    </script>
+    <style>@import url(projectstyle.css);</style>
+    <script src="button.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1 style="text-align:center">한류 (Korean Wave)</h1>
-    <hr>
+    <nav id="menulist">
+        <ul>
+            <li><a href="project.html" style="text-shadow: 1px 1px 2px rgb(158, 142, 161);">메인</a></li>
+            <li><a href="music.html">음악</a>
+            <li><a href="drama.html">드라마</a>
+            <li><a href="movie.html">영화</a>
+            <li><a href="beauty.html">뷰티</a>
+            <li><a href="food.html">음식</a>
+        </ul>
+    </nav>
     <h3>개요</h3>
+    <!--aside로 목록 만들기-->
     <p>
         2019년부터 시작된 코로나의 장기화는 한류의 위축을 우려했으나 이는 <span >SNS</span>와 온라인 동영상 서비스(OTT)를 제공하는 <span>글로벌 영상 콘텐츠 플랫폼</span>의 활성화를 촉진했다. 
         이러한 변화는 한류를 대표하는 K팝 뿐만 아니라 언어 장벽으로 인해 상대적으로 확산이 제한되었던 드라마, 영화 , 웹툰, 등 다양한 한류 콘텐츠가 빛을 발하는 기회로 작용하였다.
     </p>
     <!--앵커에 연결되는 하이퍼링크-->
     <!--각 자료들로 이동됨-->
-    <ul style="list-style-type:upper-roman">
-        <li><a href="#music">음악</a>
-        <li><a href="#drama">드라마</a>
-        <li><a href="#movie">영화</a>
-        <li><a href="#beauty">뷰티</a>
-        <li><a href="#food">음식</a>
-    </ul>
     
+
     <h3> 2021년 주요 한류 이슈</h3>
     <div>
-        <div id="month">2021.03</div>  <div>방탄소년단(BTS), 국제음반산업협회 (IFPI)가 뽑은 2020년 베스트셀링 아티스트 선정, 영어 노래가 주가 아닌 가수로서 첫 사례<br></div>
-        <div id="month">2021.04</div>  <div>배우 윤여정, <미나리>로 재 93회 미국 아카데미 시상식에서 여우조연상 수상<br></div>
-        <div id="month">2021.05</div> <div>방탄소년단(BTS) 디지털 싱글 영어 곡 <버터> 전세계 동시 발매 - (8월 2일) 아시아 가수 최초로 빌보드 Hot 100 10주 1위 기록<br></div>
-        <div id="month">2021.06</div> <div>방탄소년단(BTS), <버터(BUTTER)>, <퍼미션 투 댄스(Permissionton to Dance)>, <마이 유니버스(My
+        <div id="month">2021.03</div>  <div>방탄소년단(BTS), 국제음반산업협회 (IFPI)가 뽑온 2020년 베스트셀링 아티스트 선정, 영어 노래가 주가 아닌 가수로서 첫 사례<br></div>
+        <div id="month">2021.04</div>  <div>배우 윤여정, <미나리>로 제 93회 미국 아카데미 시상식에서 여우조연상 수상<br></div>
+        <div id="month">2021.05</div> <div>방탄소년단(BTS) 디지털 싱글 영어 곡 <버터> 전세계 동시 발매
+            - (8월 2일) 아시아 가수 최초로 빌보드 Hot 100 10주 1위 기록<br></div>
+        <div id="month">2021.06</div> <div>방탄소년단(BTS), <버터(BUTTER)>, <퍼미션 투 댄스(Permissionto Dance)>, <마이 유니버스(My
             Universe)> 3곡으로 빌보드 Hot 100' 연간 총 12주 1위 기록<br></div>
         <div id="month">2021.09</div>  <div>블랙핑크 멤버 리사, 태국 전통적 요소 담은 솔로 앨법 《라리사(LALISA)》 발매<br>
             <라리사> 뮤직비디오 케이팝 여성 솔로 최단 신기록 3억뷰 돌파<br>
             아이튠즈 송 차트 65개국 1위<br></div>
-        <div id="month">2021.09</div>  <div><오징어 게임> 넷플릭스통해 전세계 런칭
+        <div id="month">2021.09</div>  <div><오징어 게임> 넷플릭스 통해 전세계 런칭
             - 9월 23일부터 11월 7일까지 46일 연속 전 세계(83개국) 순위 1위 기록(넷플릭스 사상 최장 1위 기록)<br></div>
     </div>
-        
     <!--리스트로 1위부터 5위까지 나타냄-->
     <h3>한국 연상이미지</h3> 
     <p>
@@ -59,9 +59,7 @@
             <li>IT 산업 : 6.8%</li>
         </ol>
     </p>
-    
     <img src="https://www.ivisitkorea.com/wp-content/uploads/2020/08/kpop-kpopgroups-min-1-1024x640.jpg?ezimgfmt=ng%3Awebp%2Fngcb18%2Frs%3Adevice%2Frscb18-1" width="300">
-    
     <!--2018년부터 2021년까지 문화컨텐츠 인기도를 담은 표-->
     <table>
         <caption>한국 문화컨텐츠 인기도</caption>
@@ -79,141 +77,6 @@
     </table>
     <p></p>
 
-    <!--<meter>를 통해 자료값을 한눈에 보기-->
-    <!--div 박스를 통해 <meter>를 오른쪽 정렬하여 데이터를 구분할 수 있음-->
-    <h3 id="music">음악</h3>
-    <div id="dataBox">
-        <p id="title">상위 3개국 </p>
-        <p id="Data">
-            인도 : 92.4%<meter value="0.924"></meter><br>
-            태국 : 88.3%<meter value="0.883"></meter><br>
-            인도네시아 : 84.0%<meter value="0.84"></meter><br>
-        </p>
-    </div>
-    <div id="dataBox">
-        <p id="title">하위 3개국 </p>
-        <p id="Data" >
-            러시아 : 50.5%<meter value="0.505"></meter><br>
-            일본 : 52.8%<meter value="0.528"></meter><br>
-            프랑스 : 61.4%<meter value="0.614"></meter><br>
-        </p>
-    </div>
-    <div id="longdataBox">
-        <p id="title">최선호 가수</p>
-        <p id="Data" >
-                BTS : 26.7%<meter value="0.267"></meter><br>
-                블랙핑크 : 10.4%<meter value="0.104"></meter><br>
-                아이유 : 2.8%<meter value="0.028"></meter><br>
-                리사 : 2.4%<meter value="0.024"></meter><br>
-                싸이 : 2.2%<meter value="0.022"></meter><br>
-        </p>
-    </div>
-    
-
-    <h3 id="drama">드라마</h3>
-    <div id="dataBox" >
-        <p id="title">상위 3개국 </p>
-        <p id="Data" >
-            태국 : 92.6%<meter value="0.926"></meter><br>
-            아르헨티나 : 92.4%<meter value="0.924"></meter><br>
-            인도 : 91.1%<meter value="0.911"></meter><br>
-        </p>
-    </div>
-    <div id="dataBox" >
-        <p id="title">하위 3개국 </p>
-        <p id="Data" >
-            일본 : 57.2%<meter value="0.572"></meter><br>
-            러시아 : 66.0%<meter value="0.66"></meter><br>
-            미국 : 71.4%<meter value="0.714"></meter><br>
-        </p>
-    </div>
-    <div id="longdataBox">
-        <p id="title">최선호 드라마</p>
-        <p id="Data">
-            오징어게임 : 21.2%<meter value="0.212"></meter><br>
-            사랑의 불시착 : 2.2%<meter value="0.022"></meter><br>
-            빈센조 : 1.9%<meter value="0.019"></meter><br>
-            펜트하우스 : 1.6%<meter value="0.016"></meter><br>
-            갯마을 차차차 : 1.4%<meter value="0.014"></meter><br>
-        </p>
-    </div>
-    
-
-    <h3 id="movie">영화</h3>
-    <div id="dataBox" >
-        <p id="title">상위 3개국 </p>
-        <p id="Data" >      
-            태국 : 91.5%<meter value="0.915"></meter><br>
-            아르헨티나 : 91.4%<meter value="0.914"></meter><br>
-            인도 :  91.2% <meter value="0.912"></meter><br> 
-        </p>
-    </div>
-    <div id="dataBox" >
-        <p id="title">하위 3개국 </p>
-        <p id="Data" >
-            일본 : 60.6%<meter value="0.606"></meter><br>
-            프랑스 : 66.8%<meter value="0.668"></meter><br>
-            러시아 : 67.4%  <meter value="0.674"></meter><br>
-        </p>
-    </div>
-    <div id="longdataBox">
-        <p id="title">최선호 영화</p>
-        <p id="Data">        
-            기생충 : 10.3%<meter value="0.103"></meter><br>
-            부산행 : 6.8%<meter value="0.068"></meter><br>
-            서복 : 1.5%<meter value="0.015"></meter><br>
-            미드나이트 : 1.3%<meter value="0.013"></meter><br>
-            승리호 : 1.3%<meter value="0.013"></meter><br>    
-        </p>
-    </div>
-    <div id="longdataBox">
-        <p id="title">최선호 배우</p>
-        <p id="Data">
-            이민호 : 9.3%<meter value="0.09"></meter><br>
-            현빈 : 3.1%<meter value="0.031"></meter><br>
-            공유 : 2.8%<meter value="0.028"></meter><br>
-            송혜교 : 2.2%<meter value="0.022"></meter><br>
-            송중기 : 2.1%<meter value="0.021"></meter><br>   
-        </p>
-    </div>
-    
-
-    <h3 id="beauty">뷰티</h3>
-    <div id="dataBox" >
-        <p id="title">상위 3개국 </p>
-        <p id="Data">
-            인도 : 93.2%<meter value="0.932"></meter><br>
-            아르헨티나 : 90.6%<meter value="0.906"></meter><br>
-            베트남 : 90.0%<meter value="0.90"></meter><br>   
-        </p>
-    </div>
-    <div id="dataBox" >
-        <p id="title">하위 3개국 </p>
-        <p id="Data">
-            프랑스 : 56.9%<meter value="0.569"></meter><br>
-            러시아 : 64.8%<meter value="0.648"></meter><br>
-            일본 : 66.1%<meter value="0.661"></meter><br>
-        </p> 
-    </div>
-
-    <h3 id="food">음식</h3>
-    <div id="dataBox" >
-        <p id="title">상위 3개국 </p>
-        <p id="Data">
-            인도 : 37.3%<meter value="0.373"></meter><br>
-            베트남 : 33.5%<meter value="0.335"></meter><br>
-            태국 : 31.3%<meter value="0.313"></meter><br>
-        </p>
-    </div>
-    <div id="dataBox" >
-        <p id="title">하위 3개국 </p>
-        <p id="Data">
-            러시아 : 9.7%<meter value="0.097"></meter><br>
-            일본 : 11.4%<meter value="0.114"></meter><br>
-            프랑스 : 15.1%<meter value="0.151"></meter><br>
-        </p>
-    </div>
-    
     <!--input 태그로 버튼 타입을 구현-->
     <input class="goupbtn" type="button" value="top" onclick="toTop()">
 </body>
