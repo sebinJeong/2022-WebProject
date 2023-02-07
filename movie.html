@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie</title>
+    <style>@import url(projectstyle.css);</style>
+    <script src="button.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 style="text-align:center">한류 (Korean Wave)</h1>
+    <nav id="menulist">
+        <ul>
+            <li><a href="project.html">메인</a></li>
+            <li><a href="music.html">음악</a>
+            <li><a href="drama.html">드라마</a>
+            <li><a href="movie.html" style="text-shadow: 1px 1px 2px rgb(158, 142, 161);">영화</a>
+            <li><a href="beauty.html">뷰티</a>
+            <li><a href="food.html">음식</a>
+        </ul>
+    </nav>
+    <h3 id="movie">영화</h3>
+    <div id="dataBox" >
+        <p id="title">상위 3개국 </p>
+        <p id="Data" >      
+            태국 : 91.5%<meter value="0.915"></meter><br>
+            아르헨티나 : 91.4%<meter value="0.914"></meter><br>
+            인도 :  91.2% <meter value="0.912"></meter><br> 
+        </p>
+    </div>
+    <div id="dataBox" >
+        <p id="title">하위 3개국 </p>
+        <p id="Data" >
+            일본 : 60.6%<meter value="0.606"></meter><br>
+            프랑스 : 66.8%<meter value="0.668"></meter><br>
+            러시아 : 67.4%  <meter value="0.674"></meter><br>
+        </p>
+    </div>
+    <div>
+    <div id="longdataBox">
+        <p id="title">최선호 영화</p>
+        <p id="Data">        
+            기생충 : 10.3%<meter value="0.103"></meter><br>
+            부산행 : 6.8%<meter value="0.068"></meter><br>
+            서복 : 1.5%<meter value="0.015"></meter><br>
+            미드나이트 : 1.3%<meter value="0.013"></meter><br>
+            승리호 : 1.3%<meter value="0.013"></meter><br>    
+        </p>
+    </div>
+    <div id="longdataBox">
+        <p id="title">최선호 배우</p>
+        <p id="Data">
+            이민호 : 9.3%<meter value="0.09"></meter><br>
+            현빈 : 3.1%<meter value="0.031"></meter><br>
+            공유 : 2.8%<meter value="0.028"></meter><br>
+            송혜교 : 2.2%<meter value="0.022"></meter><br>
+            송중기 : 2.1%<meter value="0.021"></meter><br>   
+        </p>
+    </div>
+    </div>
+    <input class="goupbtn" type="button" value="top" onclick="toTop()">
+</body>
+</html>
