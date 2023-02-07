@@ -2,7 +2,12 @@ body{
     background-color:whitesmoke;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: 'Noto Serif KR', serif;
 }
+h3 {
+    margin-left: 90px;
+}
+
 /*표 스타일*/
 table{
     /*중복된 테두리 합치기*/
@@ -34,33 +39,58 @@ td:nth-child(5){
     color: cornsilk;
 } 
 /* 엥커를 이용하여 각 영역을 스타일 적용*/
-#month{
-    
-            background-color: rgb(200, 213, 224);
-            text-align: center;
-            margin-top: 5px;
-            margin-bottom: 5px;
-            width: 60px;
-            font-weight:bold;
+#menulist {
+    background-color:#ffffff;
+}
+#menulist ul{
+    margin: 0;
+    padding: 0;
+    width: 3000px;
+}
+#menulist ul li {
+    font-size: larger;
+    font-weight: 600;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 90px;
+}
+#menulist ul li a {
+    color:dimgrey;
+    text-decoration: none;
+}
+#menulist ul li a:hover {
+    color: cornflowerblue;
 }
 #dataBox {
+    margin: 10px;
+    display: inline-block;
     width:210px;
     height:110px;
 }
 #Data{
+    width: 220px;
+    display: inline-block;
     text-align: right;
 }
 #longdataBox{
+    display: inline-block;
     width: 230px;
     height:120px;
 }
 #title{
+    margin-left: 20px;
     color:darkblue;
     font-size: 17;
 }
+#month{
+            background-color: rgb(200, 213, 224);
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            width: 65px;
+            font-weight:bold;
+        }
 /*버튼스타일 구현*/
-/*항상 버튼이 떠있도록 하기 위해서 버튼의 위치를 고정*/
-/*z-index로 항상 맨위에 떠있게 */
 .goupbtn{
     top:90%;
     left:90%;
